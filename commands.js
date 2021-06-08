@@ -4,8 +4,9 @@
 const anri = require('./commands/anri.js');
 const gif = require('./commands/gif.js');
 const insta = require('./commands/insta.js');
+const twitter = require('./commands/twitter.js');
 
-const commands = { anri, gif, insta };
+const commands = { anri, gif, insta, twitter };
 
 // note: function does not need a name anymore as it is saved to the variable commandHandler in bot.js
 module.exports = async function (msg) {
